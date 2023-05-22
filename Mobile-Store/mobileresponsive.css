@@ -1,0 +1,125 @@
+@media only screen and (max-width: 965px) {
+    #header{
+        display: flex;
+    }
+    #logo img{
+        width: 22vw;
+    }
+    #logo{
+        display: flex;
+    }
+    #cart button{
+        display:none
+        
+    }
+  }
+  @media only screen and (max-width: 538px){
+    #container{   
+        display:block;
+    }
+    .best-selling-products{
+        width: 84vw;
+
+    }
+    .best-selling-products img {
+        width: 38vw;
+       
+    }
+    #best-sellings{
+         display: block;
+    }
+    #dropdown ul {
+        display: flex;
+    }
+    #dropdown ul li{
+        margin-right: 1em;
+    }
+    .footer{
+        width: 100%;
+        top: 270em;
+    }
+  }
+  @media only screen and (max-width: 800px){
+    .footer{
+        width: 100%;
+       
+    }
+  }
+  @media only screen and (max-width: 850px){
+    #box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+    }
+  }
+  @media only screen and (max-width: 950px){
+   .nav-links{
+
+        position: fixed;
+        top: 11vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        right: 0px;
+        transform: translateX(100%);  
+        
+    }
+    .navlinks li{
+        opacity: 0;
+    }
+    header{
+        position: fixed;
+    }
+    #hamburger{
+        display:block;
+        margin-left: 22em;
+    }
+    .nav-active{
+        transform: translateX(0%);   
+    }
+    #cart button{
+        margin-left: 0.1em;
+        
+    }
+  }
+  @media only screen and (max-width: 800px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #hamburger{
+        display:block;
+       margin-left: 15em;  
+    }
+    #footer-container{
+        display: block;
+       
+    }
+  }
+  @media only screen and (max-width: 580px){
+    #hamburger{
+        display:block;
+       margin-left: 7em;
+       position: absolute;
+    }
+    #cart button{
+        margin-left: 0.1em;
+       
+        right: 1em;
+    }
+
+  }
+  @media only screen and (max-width: 300px){
+    #hamburger{
+        display:block;
+       margin-left: 5em;
+       position: absolute;
+    }
+    #cart button{
+        margin-left: 0.1em;
+        position:absolute;
+        right: 1em;
+    }
+
+  }

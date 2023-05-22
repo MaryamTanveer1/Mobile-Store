@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;  
+    background-color: rgb(231, 241, 250);
+}
+marquee{
+    width:100%;
+    direction:"left";
+    height:3.5vh;
+    background-color: rgb(255, 247, 0);
+}
+#header{
+    background-color: rgb(184, 4, 61);
+    display:flex;
+    position: absolute;
+    top:1em;
+    z-index:1;
+    width:100%;
+    font-size: 1.5rem;
+    color: white;
+    align-items: center;
+}
+#logo{
+    background-color: rgb(184, 4, 61);
+}
+#logo img{
+    height: 8vh;
+    width: 5vw;
+    padding: 0;
+    background-color: rgb(184, 4, 61);
+}
+#navbar{
+    background-color: rgb(184, 4, 61);
+    display: flex;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 13em;
+    margin-bottom: 0.5em;
+    background-color: rgb(184, 4, 61);
+}
+#navbar ul a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(184, 4, 61);
+}
+#navbar ul li{
+    margin: 0.5em 1em 0 1em;
+    background-color: rgb(184, 4, 61);
+}
+#hamburger{
+    background-color: rgb(184, 4, 61);
+    margin-top: 0.5em;
+    display: none;
+}
+#hamburger div{
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 3px;
+}
+
+#cart{
+    order: 3;
+    margin-left: 2em;
+    padding: 0.5em 1em 0 1em;
+    background-color: rgb(184, 4, 61);
+}
+#slider-frame{
+    height:70vh;
+    width:100%;
+    margin: 3em 0 0 0;
+    background-image: url('Artboard 1.png');
+    background-position: center;
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+    animation: animate2 1s ease infinite;
+    animation-duration: 10s;
+    object-fit: cover;
+    
+
+}
+@keyframes animate2{
+    0%{
+        background-image: url("y22.png");
+    }
+    25%{
+        background-image: url("sams s22 ultra.png");
+    }
+    75%{
+        background-image: url("iPhone 13 Pro Max.png");
+        
+    }
+    100%{
+        background-image: url("y22.png");
+    }
+    }
+
+#box{
+    margin-top: 1em;
+    display:flex;
+    overflow: auto;
+    flex-direction: column;
+    width: 98vw;
+}
+
+.slide-image img{
+    width: 15vw;
+    height: 17vh;
+    margin: 0 10px;
+}
+.image-box{
+    padding: 0.5em;
+    margin: 0 10px; 
+    cursor: pointer;
+}
+.lSAction > a {
+    background-color: black;
+    position: fixed;
+}
+#best-sellings{
+    margin-top: 2em;
+     margin-left: 1.8em;
+     display: flex;
+}
+.best-selling-container{
+     margin-top: 2em;
+     margin-left: 1.8em;
+     text-decoration: 3px underline rgb(79, 4, 113);
+     border-bottom: 1px solid grey;
+     font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     font-size: 2rem;
+     color: rgb(40, 3, 57);
+     font-weight: lighter;
+     display: block;
+     height: 5vh
+
+}
+.best-selling-products{
+    width:13vw;
+    box-sizing: border-box;
+    box-shadow: 0 20px 15px 0 rgb(201, 201, 201);
+    margin: 1em;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 30px;
+    border-radius: 30px;
+    
+}
+.best-selling-products img{
+    width: 10vw;
+    height: 25vh;
+   
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+.checked{
+    color: orange;
+}
+.best-selling-products ul{
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 2em;
+}
+.buybtn{
+    width:13vw;
+    background-color: blue;
+    color: white;
+    margin-bottom: 0;
+    border-radius: 7px;
+    font-size: 1rem;
+    padding: 0.2em 0;
+}
+.best-selling-products:hover{
+    box-shadow: 0 35px 30px 0 rgb(105, 104, 104);
+    transform: translate(0px, -40px);
+}
+#dropdown{
+    margin-top: 2em;
+    align-items: flex-start;
+}
+#dropdown ul li a{
+    text-decoration: 1px underline gray;
+     color:black;
+     font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
+}
+#dropdown ul li a:hover{
+    background-color: blue;
+    color: white;
+    padding: 0.7em;
+}
+#dropdown ul li{
+    list-style: none;
+    line-height: 2;
+}
+#footer_logo{
+    background-color: rgb(18, 1, 30);
+    
+}
+#footer_logo img{
+    background-color: rgb(18, 1, 30);
+    height: 8vh;
+    width: 5vw;
+    padding: 0;
+    margin: 2em 0 0 2em;
+}
+#footer-heading{
+    background-color: rgb(18, 1, 30);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     font-size: medium;
+     margin: 0em 0 0 2em;
+}
+.headphone i{
+    background-color: rgb(18, 1, 30);
+    color:white;
+}
+.headphone{
+    background-color: rgb(18, 1, 30);
+    color:white;
+    margin: 1em 0 0 1em;
+    display: flex;
+    font-size:large;
+}
+.headphone p{
+    background-color: rgb(18, 1, 30);
+    color:white;
+   margin-left: 7px;
+}
+.contact-info{
+    margin: 2em 0 0 1em;
+    background-color: rgb(18, 1, 30);
+    color:white;
+    font-size: medium;
+}
+#footer_logo p{
+    background-color: rgb(18, 1, 30);
+    color:white;
+    margin: 0em 0 0 1em;
+}
+#footer-container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(18, 1, 30);
+   
+}
+.footer-content{
+    
+    background-color: rgb(18, 1, 30);
+    border: none;
+    width: 100%;
+}
+.footer-content .Footer-links ul li{
+    background-color: rgb(18, 1, 30);
+    text-align: center;
+    border: none;
+}
+.footer-content .Footer-links{
+    background-color: rgb(18, 1, 30);
+    margin: 4em 4em 5em 4em;
+    line-height: 2em;
+    border: none;
+}
+.footer-content .Footer-links h2{
+    background-color: rgb(18, 1, 30);
+    color: white;
+}
+.Footer-links ul li a{
+    background-color: rgb(18, 1, 30);
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+#copyright{
+    background-color: rgb(18, 1, 30);
+    text-align: center;
+    color: white;
+
+}
+.footer{
+    background-color: rgb(18, 1, 30);
+    position: absolute;
+    top: 120em;
+}
